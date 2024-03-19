@@ -1,0 +1,145 @@
+* {
+    font-family: math;
+}
+
+.navbar {
+    background-color: cadetblue;
+    border-radius: 30px;
+    font-size: large;
+    font-family: math;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px 13px 20px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    color: coral;
+}
+
+#heading {
+    text-align: center;
+}
+
+.Intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+.DoctorIntro {
+    margin-left: 18px;
+}
+
+#Photo {
+    margin-right: 30px;
+}
+
+.content {
+    margin-left: 40px;
+    font-size: large;
+}
+
+#AppointmentButton {
+    margin: auto 20px auto 550px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    padding: 6px 15px;
+    border-color: darkgrey;
+}
+
+.PopUp {
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.openPopup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.PopUp img {
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
+}
+
+.PopUp h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.PopUp button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: aqua;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#About {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px auto 20px auto;
+}
+
+#AboutTxt {
+    text-align: center;
+    font-size: large;
+    margin: 20px 160px 20px 160px;
+    font-family: math;
+}
+
+#ConatctHeading {
+    text-align: center;
+}
+
+.Location {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+.map {
+    width: 45%;
+}
+
+.ClinicInfor {
+    width: 40%;
+    margin-right: 40px;
+}

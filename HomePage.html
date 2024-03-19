@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="C:\Users\ROG STRIX\OneDrive\Desktop\IWT Project\HomePage\Style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a a href="#">Service</a></li>
+                <li><a a href="#">Contact Us</a></li>
+                <li><a a href="#">Check Doctor Availability</a></li>
+                <li> <input type="button" id="AppointmentButton" value="Book Appointment" onclick="openPopup()"></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="heading">Meet Our Doctor</h1>
+    <div class="Intro">
+        <div class="DoctorIntro">
+            <h2>Dr Saumil Malvania</h2>
+            <strong><p>(MD Homeopathy)</p></strong>
+            <div class="content">
+                <p>Completed M.D. in homoeopathy in 2009</p>
+                <p>Associated with Institute of Clinical Research in Mumbai</p>
+                <p>Published scientific papers in various Homoeopathic journals</p>
+                <p>Has presented papers in various state & national level conferences & symposias</p>
+                <p>Worked with various institutes & hospitals, & then started private practice in Rajkot since 1986</p>
+                <p>Currently professor & H.O.D in Homoeopathic philosophy at post graduate course in Rajkot Homoeopathy medical College, Parul university</p>
+            </div>
+        </div>
+        <div class="PopUp" id="PopUP">
+            <img src="C:\Users\ROG STRIX\OneDrive\Desktop\IWT Project\Images\CallLogo.svg">
+            <h2>Thank You!</h2>
+            <p>hagsdjhgashjdgjagjshg</p>
+            <button type="button" onclick="closePopup()">Ok</button>
+        </div>
+        <div class="DoctorPhoto">
+            <img src="C:\Users\ROG STRIX\OneDrive\Desktop\IWT Project\Images\Dr. Saunil Malvania.jpeg" id="Photo">
+        </div>
+    </div>
+
+    <strong><p id="About">Our Homeopathy Clinic can cure 120+ Diseases Naturally</p></strong>
+    <div id="AboutTxt">
+        <p> we specialize in various homeopathic treatments for Allergies, Bed-Wetting, Eczema, Female Disorders, Hormonal Imbalance, Lifestyle Disorders, PCOD, Pediatrics, Skin/Hair Problems, Thyroid, and many more.Get your personalised homeopathic treatment
+            today from the Afecto homeopathic clinic. Our remedies are safe, non-toxic, and free from side effects. Our experienced homeopathic doctors provide personalized treatments to address your unique health concerns.</p>
+    </div>
+    <h1 id="ConatctHeading">Contact Us</h1>
+    <div class="Location">
+        <div class="ClinicInfo">
+            <h3>Address</h3>
+            <p>117, Amrut Com. Complex, 1st Floor, Above Poojara Telecom, Sardarnagar Main Road, Rajkot - 360 001. India</p>
+            <h3>Contact No:-</h3>
+            <p>(0281) (O)2468902 (R)2445585</p>
+            <p>+91 87804 84294</p>
+            <h3>E-mail</h3>
+            <p>drsaunilmalvania@gmail.com</p>
+            <h3>Time</h3>
+            <p>10:00 am to 4:30 pm</p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d326.2973526420825!2d70.78923816120614!3d22.29188285473356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca186bd1a12d%3A0x8d401c05e5b0c247!2sPoojara%20Telecom%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1709910582078!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <script>
+        let popup = document.getElementById("PopUP");
+
+        function openPopup() {
+            popup.classList.add("openPopup");
+        }
+
+        function closePopup() {
+            popup.classList.remove("openPopup")
+        }
+    </script>
+
+</body>
+
+</html>
